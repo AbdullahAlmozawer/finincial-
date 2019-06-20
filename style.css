@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Quattrocento|Roboto&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: unset;
+}
+p {
+  margin: 0, 75rem 0;
+}
+.text-primary {
+  color: rgb(9, 123, 158);
+}
+#navbar {
+  display: flex;
+  background: #333;
+  color: #fff;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#navbar ul li a {
+  padding: 1.5rem;
+  color: #fff;
+  margin: 0 0, 2rem;
+}
+#navbar ul li a:hover {
+  background: rgb(9, 123, 158);
+  border-radius: 5px;
+}
+main{
+  background-image: url(./img/acc\ 1.jpg);
+  background-repeat: no-repeat;
+  padding: 20rem;
+  background-position:center;
+  font-family: 'Roboto', sans-serif;
+font-family: 'Quattrocento', serif;
+}
+h2{
+  
+  position: fixed;
+  left: 1%;
+  top: 41%;
+  font-size: 2.5rem;
+  border: 3px;
+  padding:2px;
+  background:greenyellow;
+}
+h3{
+  position: fixed;
+  left: 4%;
+top: 50%;
+font-size: 2rem;
+border: 10px;
+padding: 10;
+background: greenyellow;
+}
+.btn{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  
+  
+
+}
+.btn  li{
+  display: flex;
+  background: rgb(41, 41, 41);
+  border: 1px solid #111;
+  
+  flex-grow: 10;
+  
+  font-size: 40px white;
+  padding: 3rem 2rem;
+
+}
+.btn li a{
+display: flex;
+align-content: center;
+color: #fff;
+  
+}
+
